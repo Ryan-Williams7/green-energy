@@ -1,0 +1,117 @@
+/*
+White: #FFFFFF
+Light green: #00FF7E 
+Green: #17FF00
+Yellow: #C8FF00
+Black: #000000
+*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    font-size: .75rem;
+    margin: 0 2rem;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.masthead {
+    background-image: url("../img/leaf.jpg");
+    height: 200px;
+}
+
+.tag-line {
+    color: #FFFFFF;
+    position: relative;
+    top: 75px;
+    left: 20px;
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    background-color: #C8FF00;
+    color: #000000; 
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+header {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #00FF7E; 
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+
+button {
+    background-color: #17FF00;
+    color: #000000; 
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+#active {
+    background-color: red;
+}
+
+
+article {
+    margin: 2rem;
+}
+
+article img {
+    max-width: 80%;
+    padding: 2rem;
+}
+
+footer a {
+    font-size: 30px;
+    color: #000000;
+    padding-right: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60rem;
+    margin: 0 auto;
+    }
+
+@media only screen and (min-width: 30rem) {
+	body {
+        font-size: 1rem;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav a {
+        display: inline-block;
+    }
+    
+    article img {
+        width: 25%;
+        height: auto;
+        float: left;
+    }
+    
+    p {
+        padding-bottom: 3rem;
+    }
+}
